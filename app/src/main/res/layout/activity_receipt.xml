@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:orientation="vertical">
+
+    <fragment
+        android:name="komiskey.jacob.myfitkit.LoggedInAsFragment"
+        android:id="@+id/logged_in_as_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+    
+    <Button
+        android:id="@+id/email_button"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email_button"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/print_button"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/print_button"
+        android:layout_below="@+id/email_button"
+        android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

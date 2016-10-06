@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">MyFitKit</string>
+    <string name="customer_name">Customer name</string>
+    <string name="phone_text">Phone</string>
+    <string name="email_text">Email</string>
+    <string name="new_customer_button">New customer</string>
+    <string name="add_button">Add</string>
+    <string name="date_text">Date</string>
+    <string name="time_text">Time</string>
+    <string name="session_cost">Cost of session(s)</string>
+    <string name="tax_text">Tax</string>
+    <string name="total_text">Total</string>
+    <string name="ccnum_text">Credit card number</string>
+    <string name="expiration_date_text">Expiration date</string>
+    <string name="ccv_text">CCV</string>
+    <string name="submit_payment_button">Submit payment</string>
+    <string name="email_button">Email</string>
+    <string name="print_button">Print</string>
+    <string name="logoff">Logoff</string>
+    <string name="add_customer">Add Customer</string>
+    <string name="logoff_title">Logoff</string>
+    <string name="new_customer">New Customer</string>
+    <string name="show_subtitle">Show Subtitle</string>
+    <string name="hide_subtitle">Hide Subtitle</string>
+    <string name="subtitle_format">%1s customers</string>
+    <string name="log_off_message">Logging You Off</string>
+    <string name="save_button">Save</string>
+
+    <!-- Strings related to login -->
+    <string name="username">jdoe</string>
+    <string name="password">welcome1</string>
+    <string name="successful_login">Login successful!</string>
+    <string name="unsuccessful_login">Login attempt unsuccessful</string>
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Login</string>
+    <string name="error_invalid_username">This username is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing username
+        completions."
+    </string>
+    <string name="title_activity_new_customer">NewCustomerActivity</string>
+    <string name="title_activity_list_item_customer">ListItemCustomerActivity</string>
+    <string name="title_activity_list_cust_sessions">ListCustSessionsActivity</string>
+    <string name="title_activity_add_session">AddSessionActivity</string>
+    <string name="title_activity_signature">SignatureActivity</string>
+    <string name="title_activity_billing_info">BillingInfoActivity</string>
+    <string name="title_activity_receipt">ReceiptActivity</string>
+</resources>

@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <fragment
+        android:name="komiskey.jacob.myfitkit.LoggedInAsFragment"
+        android:id="@+id/logged_in_as_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/new_session_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:hint="@string/date_text"
+        android:imeActionId="@+id/session_date"
+        android:imeActionLabel="@string/date_text"
+        android:imeOptions="actionUnspecified"
+        android:inputType="date"
+        android:maxLines="1"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/new_session_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:hint="@string/time_text"
+        android:imeActionId="@+id/session_time"
+        android:imeActionLabel="@string/time_text"
+        android:imeOptions="actionUnspecified"
+        android:inputType="time"
+        android:maxLines="1"
+        android:singleLine="true" />
+
+</LinearLayout>
